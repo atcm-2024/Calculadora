@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto,sans-serif;
+    /*font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
+    font-size: 25px;
+}
+
+body{
+    margin-top: 200px;
+}
+
+div{
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 9px;
+    gap: 8.25px;
+    margin: 0 auto;
+    border-radius: 7px;
+    font-size: 24px;
+}
+
+
+.div-buttons{
+    /*border: solid 1px  blue;*/
+    margin-top:0;
+    padding-top: 0;
+}
+
+.container{
+    background-color: #ffffff;
+    border: 2px #a3a3a3 solid;
+    height: 420px;
+    padding-top: 15px;
+}
+
+.btn{
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+input{
+    height: 50px;
+    width: 340px;
+}
